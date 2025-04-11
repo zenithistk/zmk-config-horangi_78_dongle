@@ -1,0 +1,6 @@
+if SHIELD_HORANGI_78_LEFT || SHIELD_HORANGI_78_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

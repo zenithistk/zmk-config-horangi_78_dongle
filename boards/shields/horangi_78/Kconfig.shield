@@ -1,3 +1,6 @@
+config SHIELD_HORANGI_78_DONGLE
+    def_bool $(shields_list_contains,horangi_78_dongle)
+
 config SHIELD_HORANGI_78_LEFT
     def_bool $(shields_list_contains,horangi_78_left)
 
